@@ -18,7 +18,7 @@ export default function Navbar() {
           <Image src="/images/logo.svg" width={40} height={40} alt="logo" />
           <p className="font-bold">SimpleBank</p>
         </Link>
-        <div onClick={handleClick} className="cursor-pointer lg:hidden flex">
+        <div onClick={handleClick} className="cursor-pointer bg-primary px-4 py-2 rounded-full text-gray-600 lg:hidden flex">
           <HiMenuAlt3 size={25} />
         </div>
         {/* mobile design */}
