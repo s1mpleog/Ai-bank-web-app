@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         primary: "#CAFF33",
         glass: "#1C1C1C",
-        card: "#262626"
+        card: "#262626",
+        glass1: "#1A1A1A"
       },
     },
   },
