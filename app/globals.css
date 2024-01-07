@@ -2,26 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.nav-border {
+  border-radius: 100px;
+  border: 1px solid var(#262626);
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
+.card-bg {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    180deg,
+    rgba(202, 255, 51, 0.05) 0%,
+    rgba(202, 255, 51, 0) 100%
+  );
 }
+
+.card-bt{
+  border-radius: 82px;
+border: 1px solid var(--Grey-15, #262626);
+background: var(--Grey-11, #1C1C1C);
+}
+/* 
+.today {
+  border-radius: 20px;
+  border: 1px solid #262626;
+  background: linear-gradient(
+      267deg,
+      #1c1c1c 40.67%,
+      rgba(28, 28, 28, 0) 99.81%
+    ),
+    url(<path-to-image>),
+    lightgray 0% 0% / 62.46418356895447px 62.46418356895447px repeat, #1c1c1c;
+  background-blend-mode: normal, screen, normal;
+} */
