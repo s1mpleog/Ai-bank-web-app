@@ -13,7 +13,7 @@ export default function UseCases() {
           businesses alike, offering a wide range of financial solutions
         </p>
       </div>
-      <div className="flex lg:flex-row  flex-col items-start my-20 justify-start lg:gap-20">
+      <div className="flex lg:flex-row  flex-col lg:items-start my-20 lg:justify-start items-center justify-center lg:gap-20">
         <div className="">
           <Glass
             image="/images/Frame.svg"
@@ -34,7 +34,7 @@ export default function UseCases() {
             during various life milestones. We also prioritize retirement
             planning, ensuring a financially secure future for our customers
           </p>
-          <div className="flex lg:flex-row flex-col items-center justify-start my-20 gap-10">
+          <div className="flex lg:flex-row flex-col lg:items-center lg:justify-start  items-center justify-center my-20 lg:gap-10">
             <div className="">
               <h5 className="font-bold text-5xl text-primary">78%</h5>
               <p className="text-gray-400 my-5 max-w-[150px]">Secure Retirement Planning</p>

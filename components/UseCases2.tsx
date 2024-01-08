@@ -4,13 +4,13 @@ import Glass from "./resuable/Glass";
 export default function UseCases2() {
   return (
     <section className="lg:text-start text-center lg:mx-0 mx-5">
-      <div className="flex lg:flex-row flex-col items-start justify-start lg:gap-20">
+      <div className="flex lg:flex-row flex-col lg:items-start lg:justify-start items-center justify-center lg:gap-20">
         <div>
           <h4 className="font-bold text-3xl">For Business</h4>
           <p className="my-5 text-gray-400">
           For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them.
           </p>
-          <div className="flex lg:flex-row flex-col items-center justify-start my-20 gap-10">
+          <div className="flex lg:flex-row flex-col lg:items-center lg:justify-start items-center justify-center my-20 lg:gap-10">
             <div className="">
               <h5 className="font-bold text-5xl text-primary">65%</h5>
               <p className="text-gray-400 my-5 max-w-[150px]">

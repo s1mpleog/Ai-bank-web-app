@@ -32,8 +32,8 @@ export default function Glass({
         height={100}
         alt="style"
       />
-      <div className="flex items-start gap-4 justify-start lg:mx-10 mx-4">
-        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] min-h-[150px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center justify-start text-center">
+      <div className="flex lg:items-start gap-4 lg:justify-start items-center justify-center lg:mx-10 mx-4">
+        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] max-w-[150px] min-h-[150px] max-h-[200px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center lg:justify-start justify-center text-center">
           <div className="card-bg w-[70px] h-[70px] flex items-center justify-center rounded-full">
             <Image src={image} width={28} height={28} alt="flame" />
           </div>
@@ -42,7 +42,7 @@ export default function Glass({
           </div>
         </div>
 
-        <div className="flex bg-glass1 lg:min-w-[280px] lg:max-h-[200px] min-w-[150px] min-h-[150px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center justify-start text-center">
+        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] max-w-[150px] min-h-[150px] max-h-[200px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center lg:justify-start justify-center text-center">
           <div className="card-bg w-[70px] h-[70px] flex items-center justify-center rounded-full">
             <Image src={image1} width={28} height={28} alt="flame" />
           </div>
@@ -53,7 +53,7 @@ export default function Glass({
       </div>
 
       <div className="flex items-start gap-4 my-8 lg:ml-10 ml-5 justify-start">
-        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] min-h-[150px] py-6 px-6  rounded-2xl border-[1px] border-card flex-col items-center justify-start text-center">
+        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] max-w-[150px] min-h-[200px] max-h-[200px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center lg:justify-start justify-center text-center">
           <div className="card-bg w-[70px] h-[70px] flex items-center justify-center rounded-full">
             <Image src={image2} width={28} height={28} alt="flame" />
           </div>
@@ -62,7 +62,7 @@ export default function Glass({
           </div>
         </div>
 
-        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] min-h-[150px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center justify-start text-center">
+        <div className="flex bg-glass1 lg:min-w-[280px] lg:min-h-[200px] min-w-[150px] max-w-[150px] min-h-[150px] max-h-[200px] py-6 px-6 rounded-2xl border-[1px] border-card flex-col items-center lg:justify-start justify-center text-center">
           <div className="card-bg w-[70px] h-[70px] flex items-center justify-center rounded-full">
             <Image src={image3} width={28} height={28} alt="flame" />
           </div>
